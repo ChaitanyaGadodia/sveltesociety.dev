@@ -63,6 +63,8 @@
   .TOCLink img {
     height: 1em;
   }
+
+ 
 </style>
 
 <svelte:head>
@@ -88,7 +90,7 @@
     </article>
   </main>
 {:else}
-  <main>
+  <div class="home-wrap">
     <slot />
-  </main>
+  </div>
 {/if}
